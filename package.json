@@ -1,0 +1,34 @@
+{
+  "name": "@kszongic/jwt-inspect-cli",
+  "version": "1.0.0",
+  "description": "Inspect JWT tokens — decode header, payload, and check expiry from the command line. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "jwt-inspect": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt",
+    "inspect",
+    "decode",
+    "token",
+    "header",
+    "payload",
+    "expiry",
+    "cli"
+  ],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/jwt-inspect-cli"
+  },
+  "homepage": "https://github.com/kszongic/jwt-inspect-cli#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
